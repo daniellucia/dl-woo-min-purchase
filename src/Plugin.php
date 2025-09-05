@@ -4,11 +4,9 @@ namespace DL\WooMinPurchase;
 
 defined('ABSPATH') || exit;
 
-if (! class_exists('WooMinPurchase')) {
 
-    final class Plugin
-    {
+class Plugin
+{
 
-        public function init() {}
-    }
+    public function init() {}
 }
