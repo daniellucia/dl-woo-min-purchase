@@ -7,6 +7,8 @@
  * Author: Daniel Lúcia
  * Author URI: http://www.daniellucia.es
  * textdomain: dl-woo-min-purchase
+ * License:     GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 
