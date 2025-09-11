@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Minimum Purchase for WooCoomerce\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-05 07:43+0000\n"
+"POT-Creation-Date: 2025-09-11 05:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -24,12 +24,12 @@ msgstr ""
 msgid "http://www.daniellucia.es"
 msgstr ""
 
-#: src/Settings.php:75
-msgid "If zero, there is no overall minimum purchase."
+#: src/Categories.php:20 src/Categories.php:39
+msgid "If zero, there is no minimum purchase for this category."
 msgstr ""
 
-#: src/Categories.php:18 src/Categories.php:36
-msgid "Importe mínimo de compra para esta categoría"
+#: src/Settings.php:75
+msgid "If zero, there is no overall minimum purchase."
 msgstr ""
 
 #: src/Settings.php:38
@@ -40,16 +40,16 @@ msgstr ""
 msgid "Minimum purchase"
 msgstr ""
 
+#: src/Categories.php:18 src/Categories.php:36
+msgid "Minimum purchase amount for this category"
+msgstr ""
+
 #: src/Settings.php:54
 msgid "Minimum purchase configuration"
 msgstr ""
 
 #. Name of the plugin
 msgid "Minimum Purchase for WooCoomerce"
-msgstr ""
-
-#: src/Categories.php:20 src/Categories.php:39
-msgid "Si es cero, no hay compra mínima para esta categoría."
 msgstr ""
 
 #: src/Cart.php:52 src/Checkout.php:51
