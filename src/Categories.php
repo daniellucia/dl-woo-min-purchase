@@ -50,6 +50,10 @@ class Categories {
      */
     public function saveCategoryMinField($term_id)
     {
+        if (defined('DOING_AJAX') && DOING_AJAX) {
+            return;
+        }
+
         $value = isset($_POST['dl_woo_min_purchase_cat']) ? floatval($_POST['dl_woo_min_purchase_cat']) : 0;
         update_term_meta($term_id, 'dl_woo_min_purchase_cat', $value);
     }
