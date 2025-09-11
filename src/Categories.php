@@ -15,9 +15,9 @@ class Categories {
     {
         ?>
         <div class="form-field">
-            <label for="dl_woo_min_purchase_cat"><?php esc_html_e('Importe mínimo de compra para esta categoría', 'dl-woo-min-purchase'); ?></label>
+            <label for="dl_woo_min_purchase_cat"><?php esc_html_e('Minimum purchase amount for this category', 'dl-woo-min-purchase'); ?></label>
             <input type="number" min="0" step="0.01" name="dl_woo_min_purchase_cat" id="dl_woo_min_purchase_cat" value="" />
-            <p class="description"><?php esc_html_e('Si es cero, no hay compra mínima para esta categoría.', 'dl-woo-min-purchase'); ?></p>
+            <p class="description"><?php esc_html_e('If zero, there is no minimum purchase for this category.', 'dl-woo-min-purchase'); ?></p>
         </div>
         <?php
     }
@@ -33,10 +33,10 @@ class Categories {
         $value = get_term_meta($term->term_id, 'dl_woo_min_purchase_cat', true);
         ?>
         <tr class="form-field">
-            <th scope="row"><label for="dl_woo_min_purchase_cat"><?php esc_html_e('Importe mínimo de compra para esta categoría', 'dl-woo-min-purchase'); ?></label></th>
+            <th scope="row"><label for="dl_woo_min_purchase_cat"><?php esc_html_e('Minimum purchase amount for this category', 'dl-woo-min-purchase'); ?></label></th>
             <td>
                 <input type="number" min="0" step="0.01" name="dl_woo_min_purchase_cat" id="dl_woo_min_purchase_cat" value="<?php echo esc_attr($value); ?>" />
-                <p class="description"><?php esc_html_e('Si es cero, no hay compra mínima para esta categoría.', 'dl-woo-min-purchase'); ?></p>
+                <p class="description"><?php esc_html_e('If zero, there is no minimum purchase for this category.', 'dl-woo-min-purchase'); ?></p>
             </td>
         </tr>
         <?php
