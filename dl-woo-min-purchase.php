@@ -37,7 +37,7 @@ use DL\WooMinPurchase\Plugin;
 define('DL_WOO_MIN_PURCHASE_VERSION', '0.0.1');
 define('DL_WOO_MIN_PURCHASE_FILE', __FILE__);
 
-add_action('init', function () {
+add_action('plugins_loaded', function () {
 
     load_plugin_textdomain('dl-woo-min-purchase', false, dirname(plugin_basename(__FILE__)) . '/languages');
 
